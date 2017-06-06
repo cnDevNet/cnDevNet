@@ -1,0 +1,26 @@
+<main>
+    <section class="search-box">
+        {{search}}
+    </section>
+    <section class="content">
+        <div class="wrap clearfix">
+            <section class="content-main">
+                <nav class="sub-nav">
+                    {{breadcrumbs}}
+                </nav>
+                <article class="request-comment">
+                    <h2>#{{request_id}} {{request_type}} {{request_title}} {{request_push}}</h2>
+                    {{satisfaction}}
+                    <ul class="request-comment-list">
+                        {{request_description}}
+                        {{request_comment_list}}
+                    </ul>
+                    {{request_comment_form}}
+                </article>
+            </section>
+            <section class="content-sidebar">
+                {{request_details}}
+            </section>
+        </div>
+    </section>
+</main>

@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+.article-content table {
+  width: 100%;
+  border: 1px solid #e2eaec;
+  text-align: center;
+  border-radius: 5px;
+}
+.article-content table tbody {
+  word-break: normal;
+}
+.article-content table tr th{
+  border: 1px solid #e2eaec;
+  padding: 6px;
+  background-color:#85d8fb;
+}
+.article-content table td{
+  border: 1px solid #e2eaec;
+  padding: 6px;
+  vertical-align: top;
+  word-break: normal;
+}
+.article-content td,
+.article-content td img {
+    vertical-align: middle;
+}
+
+.original-content img{
+  border: 1px solid #e2eaec;
+  padding: 2px;
+  border-radius: 5px;
+}
+.article-content p{
+  margin-bottom:3px;
+}
+.article-content div{
+  margin-bottom:0px;
+}
+.file_holder .file_content.code .lines .line-numbers {
+    color: #666;
+    padding: 10px 6px;
+    text-align: right;
+    background: #EEE;
+    float: left;
+    font-weight:bold;
+}
+#code_widget_style>.file_holder>.file_title>.blob_description>.gist-ul>li:before {
+    height: 0px; 
+     width: 0px; 
+}
+
+::-webkit-scrollbar/*整体部分*/
+{
+width: 17px !important;
+height:17px !important;
+}
+
+::-webkit-scrollbar-track/*滑动轨道*/
+{
+border-radius: 0px;
+background: #f1f1f1;
+box-shadow: 0px 0px 0px  inset !important;
+}
+
+::-webkit-scrollbar-thumb/*滑块*/
+{
+border-radius: 0px;
+background: #c1c1c1 !important;
+box-shadow: 0px 0px 0px inset !important;
+}
+
+::-webkit-scrollbar-thumb:hover/*滑块效果*/
+{
+border-radius: 0px;
+background: #a8a8a8 !important;
+box-shadow: 0px 0px 0px inset !important;
+}
+
+/* Turn on single button up on top, and down on bottom */
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+    display: block;
+}
+::-webkit-scrollbar-button:vertical:decrement{
+    background-image: url(http://git.oschina.net/cybozudev/zhcn/raw/master/img/arrow-up.png) ;
+	background-repeat: no-repeat;   
+}
+::-webkit-scrollbar-button:vertical:increment{
+	background-image: url(http://git.oschina.net/cybozudev/zhcn/raw/master/img/arrow-down.png) ;
+	background-repeat: no-repeat;
+}
+::-webkit-scrollbar-button:vertical:decrement:hover{
+    background-image: url(http://git.oschina.net/cybozudev/zhcn/raw/master/img/arrow-up-hover.png) ;
+    background-repeat: no-repeat;   
+}
+::-webkit-scrollbar-button:vertical:increment:hover{
+	background-image: url(http://git.oschina.net/cybozudev/zhcn/raw/master/img/arrow-down-hover.png) ;
+	background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar-button:horizontal:decrement{
+    background-image: url(http://git.oschina.net/cybozudev/zhcn/raw/master/img/arrow-left.png) ;
+	background-repeat: no-repeat;
+}
+::-webkit-scrollbar-button:horizontal:increment{
+	background-image: url(http://git.oschina.net/cybozudev/zhcn/raw/master/img/arrow-right.png) ;
+	background-repeat: no-repeat;
+}
+::-webkit-scrollbar-button:horizontal:decrement:hover{
+    background-image: url(http://git.oschina.net/cybozudev/zhcn/raw/master/img/arrow-left-hover.png) ;
+    background-repeat: no-repeat;
+}
+::-webkit-scrollbar-button:horizontal:increment:hover{
+	background-image: url(http://git.oschina.net/cybozudev/zhcn/raw/master/img/arrow-right-hover.png) ;
+	background-repeat: no-repeat;
+}
